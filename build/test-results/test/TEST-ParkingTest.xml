@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ParkingTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-12-13T07:19:53" hostname="1222LTPB0084981.local" time="0.009">
+  <properties/>
+  <testcase name="parkingShouldNotAllowToParkWhenCapacityIsZero()" classname="ParkingTest" time="0.009"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
