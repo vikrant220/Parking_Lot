@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ParkingTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-12-13T07:19:53" hostname="1222LTPB0084981.local" time="0.009">
+<testsuite name="ParkingTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2023-12-13T09:49:55" hostname="1222LTPB0084981.local" time="0.551">
   <properties/>
-  <testcase name="parkingShouldNotAllowToParkWhenCapacityIsZero()" classname="ParkingTest" time="0.009"/>
+  <testcase name="parkingShouldAllowToUnParkMyCarWhenCarIsAlreadyParked()" classname="ParkingTest" time="0.526"/>
+  <testcase name="parkingShouldNotAllowToParkWhencarIsAlreadyParked()" classname="ParkingTest" time="0.001"/>
+  <testcase name="mockObserverNotifyMethodWhenParkingIsFull()" classname="ParkingTest" time="0.011"/>
+  <testcase name="parkingShouldReturnTrueOnCheckIfMyParkCarIsAlreadyParked()" classname="ParkingTest" time="0.001"/>
+  <testcase name="parkingShouldNotifyObserverAndTrafficCopWhenParkingIsAvailable()" classname="ParkingTest" time="0.001"/>
+  <testcase name="parkingShouldNotifyObserverAndTrafficCopWhenParkingIsFull()" classname="ParkingTest" time="0.001"/>
+  <testcase name="parkingShouldNotAllowToParkWhenCapacityIsZero()" classname="ParkingTest" time="0.001"/>
+  <testcase name="parkingShouldNotAllowToParkWhenParkingCapacityBecomesZero()" classname="ParkingTest" time="0.001"/>
+  <testcase name="parkingShouldAllowToParkWhenSpaceIsAvailable()" classname="ParkingTest" time="0.0"/>
+  <testcase name="mockObserverNotifyMethodWhenParkingIsAvailable()" classname="ParkingTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
